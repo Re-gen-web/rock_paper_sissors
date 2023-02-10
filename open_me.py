@@ -1,4 +1,4 @@
-from random import randint
+from random import randint import time
   
 player = input('rock (r), paper (p) or scissors (s)?')
 
@@ -53,3 +53,4 @@ elif player == "s" and computer == 'r':
 
 else:
   print('Huh?')
+time.sleep(5)
